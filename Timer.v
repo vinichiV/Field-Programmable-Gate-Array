@@ -45,12 +45,12 @@ module Timer(input CLOCK_50, input [1:0] KEY, output [0:6] HEX0,
 							
 					        else
 						        phut_donvi <= phut_donvi + 1'b1;
-					           giay_chuc <= 4'b0;	
+					           	giay_chuc <= 4'b0;	
 				        end
 							
 				        else
 					        giay_chuc <= giay_chuc + 1'b1;
-				           giay_donvi <= 4'b0;
+				           	giay_donvi <= 4'b0;
 			        end
 					
 			        else
